@@ -16,10 +16,6 @@ const CourseInput = (props) => {
     setEnteredValue(event.target.value);
   };
 
-  // const onClickHandler = (event) => {
-  //   setBgInput(false);
-  // };
-
   const formSubmitHandler = (event) => {
     event.preventDefault();
     if (enteredValue.length == 0) {
